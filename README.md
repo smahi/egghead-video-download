@@ -29,3 +29,7 @@ Now that we installed all the prerequesits, we are ready to download lessons fro
 - Download the video files
 
 `$ youtube-dl -c -i -o "%(autonumber)s-%(title)s.%(ext)s" -a links.txt --external-downloader aria2c --external-downloader-args "-j1 -x16 -s16 -k1M"`
+
+That's all.
+
+Check my Video tutorial on [Youtube](https://www.youtube.com/watch?v=rGMGrCWHkQg)
