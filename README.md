@@ -24,7 +24,7 @@ Now that we installed all the prerequesits, we are ready to download lessons fro
 - First grab the desired lesson link, let say [https://egghead.io/courses/intro-to-angular-2-router](https://egghead.io/courses/intro-to-angular-2-router)
 - Second will dump all lesson links using Lynx command into a text file say links.txt
 
-`$ lynx -dump https://egghead.io/courses/intro-to-angular-2-router | awk '/lessons\//{print $2}' > links.txt`
+`$ lynx -dump https://egghead.io/courses/intro-to-angular-2-router | awk '/lessons\//{print $2}' | sed '/\?/d' > links.txt`
 
 - Download the video files
 
