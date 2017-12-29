@@ -7,6 +7,8 @@ Download Egghead.io video with ease and in highest speed
 - You need to download an install [youtube-dl](https://rg3.github.io/youtube-dl/) to download the videos
 - You need to download and install Aria2c download manager, to accelerate the download process.
 - You need to download and install Lynx console web browser, to dump the links
+- You need to download and install ffmpeg video encoder, to encode video in various formats.
+this tool will allow to merge audio and video in a single file.
 
 The following example are for Mac OS X
 
@@ -18,6 +20,9 @@ The following example are for Mac OS X
 
 ### Install aria2c using homebrew
 `$ brew install aria2`
+
+### Install ffmpeg uding homebrew
+`$ brew install ffmpeg`
 
 Now that we installed all the prerequesits, we are ready to download lessons from Egghead
 
