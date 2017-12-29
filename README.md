@@ -37,4 +37,4 @@ Now that we installed all the prerequesits, we are ready to download lessons fro
 
 That's all.
 
-Check my Video tutorial on [Youtube](https://www.youtube.com/watch?v=rGMGrCWHkQg)
+
